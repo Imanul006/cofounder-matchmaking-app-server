@@ -1,1 +1,2 @@
-# cofounder-matchmaking-app-server
+# kiuqi-server
+Main server for Kiuqi app

@@ -1,0 +1,42 @@
+{
+  "name": "kiuqi-server",
+  "version": "1.0.0",
+  "description": "This is the main server for kiuqi app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev-start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OverX-Tech/kiuqi-server.git"
+  },
+  "author": "Imanul Siddique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OverX-Tech/kiuqi-server/issues"
+  },
+  "homepage": "https://github.com/OverX-Tech/kiuqi-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "enum": "^3.0.4",
+    "express": "^4.17.3",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.4"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}
